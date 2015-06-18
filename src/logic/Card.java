@@ -1,4 +1,4 @@
-package logick;
+package logic;
 
 public class Card {
 	public static final int JACK = 11;
