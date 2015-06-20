@@ -10,11 +10,19 @@ public class Card {
 	public static final int DIAMONDS = 2;
 	public static final int HEART = 3;
 	
-	public int value;
-	public int color;
+	private int value;
+	private int color;
 	
 	public Card(int value, int color){
 		this.value = value;
 		this.color = color;
+	}
+	
+	public int get_value(){
+		return this.value;
+	}
+	
+	public int get_color(){
+		return this.color;
 	}
 }
