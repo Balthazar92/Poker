@@ -13,6 +13,11 @@ public class Card {
 	private int value;
 	private int color;
 	
+	public Card(){
+		this.value = -1;
+		this.color = -1;
+	}
+	
 	public Card(int value, int color){
 		this.value = value;
 		this.color = color;

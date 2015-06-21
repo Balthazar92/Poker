@@ -22,10 +22,10 @@ public class Deck {
 	public void refresh(){
 		up_card = 0;
 		Random rand = new Random();
+		Card tmp = new Card();
 		for(int i = 0; i < 200; i++){
 			int card1 = rand.nextInt(SIZE);
-			int card2 = rand.nextInt(SIZE);
-			Card tmp = new Card(-1, -1);
+			int card2 = rand.nextInt(SIZE);			
 			tmp = cards[card1];
 			cards[card1] = cards[card2];
 			cards[card2] = tmp;
