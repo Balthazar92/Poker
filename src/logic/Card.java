@@ -19,10 +19,10 @@ public class Card {
 	}
 	
 	public int get_value(){
-		return this.value;
+		return value;
 	}
 	
 	public int get_color(){
-		return this.color;
+		return color;
 	}
 }
